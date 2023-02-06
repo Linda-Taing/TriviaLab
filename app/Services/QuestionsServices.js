@@ -4,7 +4,7 @@ import { trivia_api } from "./AxiosService.js";
 
 class QuestionsService {
     async getQuestions() {
-        const res = await trivia_api.get('api.php?amount=2')
+        const res = await trivia_api.get('api.php?amount=10&category=21&difficulty=easy&type=multiple')
         console.log('are you there?', res.data);
         const questionsIWant = res.data.results.filter
             (q => q.question).map(q => new Question(q))

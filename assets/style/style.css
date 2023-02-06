@@ -1,1 +1,17 @@
 /* BASIC STYLES HERE */
+.dif{
+    font-size: 10pt;
+    color: blue;
+}
+.type{
+    font-size: 10pt;
+    color:purple;
+}
+.answer{
+    color:green
+}
+.card{
+    width:30em;
+    margin-left: 12em;
+    
+}
