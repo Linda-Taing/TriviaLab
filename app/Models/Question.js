@@ -9,7 +9,7 @@ export class Question {
 
         this.difficulty = data.difficulty
         this.category = data.category
-        this.questions = data.questions
+        this.questions = data.question
 
     }
 
